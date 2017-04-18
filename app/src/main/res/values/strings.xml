@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">BS2</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_select">Select</string>
+    <string name="title_activity_results">Results</string>
+    <string name="title_activity_doctor_home">doctorHome</string>
+    <string name="title_activity_book">book</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home__page">Home_Page</string>
+    <string name="title_activity_patient__home">Patient_HomeActivity</string>
+    <string name="title_activity_doctor__home_">Doctor_Home_Activity</string>
+    <string name="title_activity_doc__home_">Doc_Home_Activity</string>
+    <string name="title_activity_doctor1_home_">doctor1_home_Activity</string>
+    <string name="title_activity_show_records">ShowRecords</string>
+    <string name="title_activity_priscription__submission">Priscription_Submission</string>
+    <string name="title_activity_cvs__search_">Map</string>
+    <string name="title_activity_payment__submission">Payment_Submission</string>
+    <string name="title_activity_payment__submit">Payment_Submit</string>
+    <string name="title_activity_chat_orvideo">ChatORVideo</string>
+    <string name="title_activity_chat_or_video">ChatOrVideo</string>
+</resources>

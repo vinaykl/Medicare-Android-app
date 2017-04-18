@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical" >
+
+    <EditText
+        android:id="@+id/editDoctorName"
+        android:hint="Doctor Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextPatientName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Patient Name"
+        />
+
+    <EditText
+        android:id="@+id/editTextPatientAge"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Patient Age"
+        />
+    <EditText
+        android:id="@+id/editTextConsultationFees"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fees"
+        />
+
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/MultiAutoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Tablet names"
+        android:completionThreshold="1"
+        android:layout_marginTop="20dp">
+    </MultiAutoCompleteTextView>
+
+
+
+    <Button
+        android:id="@+id/buttonAuthorize"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Authorize"
+        android:layout_marginBottom="60dp" />
+
+
+</LinearLayout>

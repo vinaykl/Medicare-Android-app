@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vinaykl.bs2.Access_Records_Activity">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Email of the Dependent"
+        android:id="@+id/SearchDep">
+
+
+
+    </SearchView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp" >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+
+        <TextView
+            android:id="@+id/editname1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:textColor="#000000"
+            android:textCursorDrawable="@null"
+            android:backgroundTint="@android:color/holo_blue_light"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Pre-Conditions"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+
+        <TextView
+            android:id="@+id/editpre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLength="50"
+            android:textColor="#000000"
+            android:textCursorDrawable="@null"
+            android:backgroundTint="@android:color/holo_blue_light">
+
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

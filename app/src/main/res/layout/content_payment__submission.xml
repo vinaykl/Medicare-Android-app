@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:weightSum="1">
+
+
+    <TextView
+        android:text="YOUR PAYMENT DETAILS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:layout_weight="0.13" />
+
+    <TextView
+        android:id="@+id/editDoctorName"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.13">
+
+        <requestFocus />
+    </TextView>
+
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_weight="0.13" />
+
+
+
+
+
+
+    <Button
+        android:id="@+id/buttonAuthorize"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Pay and Rate Doctor"
+        android:layout_marginBottom="60dp" />
+
+
+</LinearLayout>
+
+
+

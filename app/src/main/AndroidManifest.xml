@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vinaykl.bs2">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="VirtualHealthCare"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".HomePage"
+            android:label="VirtualHealthCare"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Select"
+            android:label="VirtualHealthCare"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Results"
+            android:label="@string/title_activity_results"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".doctorHome"
+            android:label="@string/title_activity_doctor_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".book"
+            android:label="@string/title_activity_book"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Patient_HomeActivity"
+            android:label="@string/title_activity_patient__home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Doctor_Home_Activity"
+            android:label="@string/title_activity_doctor__home_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ShowRecords"
+            android:label="@string/title_activity_show_records"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Doctor_3options" />
+        <activity android:name=".Doctor_SignUp_Activity" />
+        <activity android:name=".Patient_SignUp_Activity" />
+        <activity android:name=".Patient_Welcome" />
+        <activity android:name=".Req_Blood_Activity" />
+        <activity android:name=".Tab_Healthy_Activity" />
+        <activity android:name=".Diet" />
+        <activity android:name=".Access_Records_Activity" />
+        <activity android:name=".Healthy_Tips" />
+        <activity android:name=".Doctor_View_Appointments" />
+        <activity android:name=".DoctorRating_Activity" />
+        <activity android:name=".ShowDetails" />
+
+        <receiver
+            android:name=".MyReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <service
+            android:name=".MyAlarmService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".PlaceOrder" />
+
+        <service
+            android:name=".ProcessOrder"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".CVSStore" />
+        <activity
+            android:name=".Priscription_Submission"
+            android:label="@string/title_activity_priscription__submission"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Doct_List_Rate_Activity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyARGVsr2ljrkDFNGLiHZclvILmvaoPrvxc" />
+
+        <activity
+            android:name=".CVS_Search_Activity"
+            android:label="@string/title_activity_cvs__search_" />
+        <activity
+            android:name=".Payment_Submission"
+            android:label="@string/title_activity_payment__submission"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Payment_Submit"
+            android:label="@string/title_activity_payment__submit"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ChatORVideo"
+            android:label="@string/title_activity_chat_orvideo"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ChatOrVideo"
+            android:label="@string/title_activity_chat_or_video"
+            android:theme="@style/AppTheme" />
+
+        <service
+            android:name=".wear"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".wear" />
+
+        <service
+            android:name=".wearable"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".Show_Calories" />
+        <activity android:name=".changepass"></activity>
+    </application>
+
+</manifest>

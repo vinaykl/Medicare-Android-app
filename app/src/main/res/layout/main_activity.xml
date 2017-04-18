@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical" >
+
+
+
+    <Button
+        android:id="@+id/buttonPatient"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Patient"
+        />
+
+    <Button
+        android:id="@+id/buttonDoctor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Doctor" />
+
+    <Button
+        android:id="@+id/buttonRequest"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Request Blood" />
+
+</LinearLayout>

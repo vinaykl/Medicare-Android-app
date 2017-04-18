@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical" >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/editTextUserName"
+        android:hint="PName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <requestFocus />
+    </EditText>
+    <EditText
+        android:id="@+id/editTextsex"
+        android:hint="Psex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <requestFocus />
+    </EditText>
+    <EditText
+        android:id="@+id/editTextage"
+        android:hint="Page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextblood"
+        android:hint="Pblood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <requestFocus />
+    </EditText>
+    <EditText
+        android:id="@+id/editTextpreconditions"
+        android:hint="Ppreconditions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <requestFocus />
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/editTextphone"
+        android:inputType="number"
+        android:hint="Pphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <requestFocus />
+    </EditText>
+
+
+<EditText
+android:id="@+id/editTextgaurdian_email"
+android:hint="Gaurdian_email"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+    >
+    <requestFocus />
+</EditText>
+
+
+
+    <EditText
+        android:id="@+id/editTextemail"
+        android:hint="Pemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <requestFocus />
+
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editTextConfirmPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonCreateAccount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:layout_marginBottom="60dp" />
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:text="Choose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_weight="1" />
+
+    <Button
+        android:text="Logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logout"
+        android:layout_above="@+id/ViewRecords"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="81dp" />
+
+    <Button
+        android:text="Access Records"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/access"
+        android:layout_weight="1"
+        android:layout_below="@+id/diet"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dirctchat"
+        android:layout_weight="1"
+        android:layout_below="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Follow Me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/diet"
+        android:layout_weight="1"
+        android:layout_below="@+id/dirctchat"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Pay Doctor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rate"
+        android:layout_weight="1"
+        android:layout_below="@+id/access"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Search CVS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cvs"
+        android:layout_weight="1"
+        android:layout_below="@+id/rate"
+        android:layout_alignRight="@+id/diet"
+        android:layout_alignEnd="@+id/diet" />
+
+    <Button
+        android:text="Go to CVS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gtc"
+        android:layout_weight="1"
+        android:layout_below="@+id/cvs"
+        android:layout_alignRight="@+id/dirctchat"
+        android:layout_alignEnd="@+id/dirctchat" />
+
+    <Button
+        android:text="View Prescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewPris"
+        android:layout_weight="1"
+        android:layout_below="@+id/gtc"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Upload Calories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/calories"
+        android:layout_above="@+id/access"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Change Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:id="@+id/password"
+        android:layout_below="@+id/rate"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

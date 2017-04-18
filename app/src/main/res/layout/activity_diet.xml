@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_diet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:scrollbars="vertical"
+    tools:context="com.example.vinaykl.bs2.Diet">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+        <TextView
+            android:text="Reference Intake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/Titlename"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0"
+            android:padding="20dp"
+            android:layout_below="@+id/Titlename">
+
+            <TableRow android:layout_height="wrap_content"
+                android:background="#BDBDBD">
+                <TextView
+                    android:text=""
+                    android:background="#BDBDBD"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                <TextView
+                    android:text="Men"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                <TextView
+                    android:text="Women"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+            </TableRow>
+
+            <TableRow android:layout_height="wrap_content"
+                android:background="#BDBDBD">
+                <TextView
+                    android:text="Energy (Kcal)"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                <TextView
+                    android:text="2500 "
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                <TextView
+                    android:text="2000"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+            </TableRow>
+
+            <TableRow android:layout_height="wrap_content"
+                android:background="#BDBDBD">
+                <TextView
+                    android:text="Protein (g) "
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                <TextView
+                    android:text="55"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                <TextView
+                    android:text="50"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+            </TableRow>
+
+            <TableRow android:layout_height="wrap_content"
+                android:background="#BDBDBD">
+                <TextView
+                    android:text="Carbohydrates (g)"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                <TextView
+                    android:text="300"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                <TextView
+                    android:text="260"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+            </TableRow>
+
+            <TableRow android:layout_height="wrap_content"
+                android:background="#BDBDBD">
+                <TextView
+                    android:text="Sugar (g)"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                <TextView
+                    android:text="120"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                <TextView
+                    android:text="90"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+            </TableRow>
+
+            <TableRow android:layout_height="wrap_content"
+                android:background="#BDBDBD">
+                <TextView
+                    android:text="Fat (g)"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                <TextView
+                    android:text="95"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                <TextView
+                    android:text="70"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+            </TableRow>
+
+            <TableRow android:layout_height="wrap_content"
+                android:background="#BDBDBD">
+                <TextView
+                    android:text="Saturates (g)"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                <TextView
+                    android:text="30"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                <TextView
+                    android:text="20"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+            </TableRow>
+
+            <TableRow android:layout_height="wrap_content"
+                android:background="#BDBDBD">
+                <TextView
+                    android:text="Salts (g)"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                <TextView
+                    android:text="9"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                <TextView
+                    android:text="9"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:text="Perfect Portions  \nNumbers and figures are all very well but how does this relate to you? "
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:background="#BDBD00" />
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0"
+            android:padding="20dp"
+            android:layout_below="@+id/Titlename">
+
+            <TextView
+                android:text="Your Portion Size:"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+            <TableRow android:layout_height="wrap_content">
+                <TextView
+                    android:text="Foods"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                <TextView
+                    android:text="Portion Size"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+            </TableRow>
+
+            <TableRow android:layout_height="wrap_content">
+                <TextView
+                    android:text="Carbs like cereal/rice/pasta/potato"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                <TextView
+                    android:text="Your clenched fist"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+            </TableRow>
+
+            <TableRow android:layout_height="wrap_content">
+                <TextView
+                    android:text="Protein like meat/poultry/fish"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                <TextView
+                    android:text="Palm of your hand"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+            </TableRow>
+
+            <TableRow android:layout_height="wrap_content">
+                <TextView
+                    android:text="Savouries like popcorn/crisps"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                <TextView
+                    android:text="2 of your cupped hands"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+            </TableRow>
+
+            <TableRow android:layout_height="wrap_content">
+                <TextView
+                    android:text="Bakes like brownies/flapjacks"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                <TextView
+                    android:text="2 of your fingers"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+            </TableRow>
+
+            <TableRow android:layout_height="wrap_content">
+                <TextView
+                    android:text="Butter and spreads"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                <TextView
+                    android:text="The tip of your thumb"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+            </TableRow>
+</TableLayout>
+
+        <!--        <TextView
+                    android:text="Breakfast
+
+        Kick-start your metabolism by including protein at breakfast, choose from eggs, salmon, lean ham or dairy. We burn more calories digesting protein rather than carbs so, \n by making your breakfast a protein one, you'll be revving up your metabolism and because protein keeps you fuller for longer, you'll eat fewer calories the rest of the day.
+        \nA protein breakfast needn't take any longer to prepare - top your morning toast with a scrambled egg, a slice of smoked salmon or some lean ham and when you do have a little more time enjoy an omelette or frittata.
+        \nWhatever you do don't skip breakfast as this sets your blood sugar off on a roller coaster, which means you'll end up choosing the wrong foods later in the day.\n  Remember breakfast makes an important contribution towards your daily intake and it plays a key role in maintaining a healthy weight."
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:text="Mid-morning snack
+
+        Many people find eating little and often helps them manage their blood sugar levels - this doesn't mean they eat more but instead spread their day's intake evenly throughout the day. Make every snack count with nourishing options that supply both the 'pick me up' you need while topping up your five-a-day.
+        \n Swap your morning biscuits for oatcakes spread with peanut or almond nut butter and a banana or have a tasty dip with veggie sticks."
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+                <TextView
+                    android:text=" Lunch \n Make lunch a mix of lean protein and starchy carbs. Carb-rich foods supply energy and without them you're more likely to suffer that classic mid-afternoon slump. The key is to choose carbs that produce a steady rise in blood sugar, which means passing on the sugary 'white' foods and going for high fibre whole-grains which help you manage those afternoon munchies.
+        \n Opt for an open rye-bread sandwich topped with salmon, chicken or low-fat dairy as well as plenty of salad or choose whole-grain toast topped with baked beans."
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+                <TextView
+                    android:text="Mid-afternoon
+
+        \n Satisfy that sweet craving and the need for energy with fruit. A handful of dried fruit combined with unsalted nuts or seeds, provides protein and healthy fats to keep you satisfied till supper.
+        \nSwap your chocolate or cereal bar for a handful of dried apple rings with a few almonds or walnuts. Dried fruit is four times as sweet as its fresh equivalent - which is great if you've got an exercise class or a gym session planned for the afternoon. \nCombining dried fruit with nuts helps stabilise the release of their sugars keeping you energised for longer. Alternatively stock your fridge with plenty of low calorie nibbles like cherry tomatoes, apples and vegetable crudités, which will prevent you reaching for the biscuit tin when you fancy something sweet or crunchy."
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+                <TextView
+                    android:text="Dinner \n Don't curfew carbs - they're low in fat, fibre-rich and help you relax in the evening. Combine them with some healthy essential fats the ones you find in oily fish like salmon, mackerel and sardines as well as nuts, seeds and their oils. Your body can use these healthy fats overnight for regeneration and repair, which is important for maintaining healthy skin and hair.
+
+        \n Fill half your plate with a colourful variety of vegetables or salad, drizzle with a dressing made from flaxseed or rapeseed oil and add meat, fish or beans with brown rice, quinoa or wholemeal pasta.
+        "
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium" /> -->
+
+
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+        </ScrollView>
